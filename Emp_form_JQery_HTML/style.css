@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form, table {
+  margin: 20px;
+}
+
+input {
+  margin: 5px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#employeeTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#employeeTable th, #employeeTable td {
+  padding: 10px;
+  text-align: left;
+}

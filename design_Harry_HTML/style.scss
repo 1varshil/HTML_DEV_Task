@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+    .nav-list {
+        width: 50%;
+        display: flex;
+        //    justify-content: center;
+        align-items: center;
+
+        .logo {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 33%;
+                border: 2px solid white;
+                border-radius: 50px;
+            }
+        }
+
+        li {
+            list-style: none;
+            padding: 26px 26px;
+
+            a {
+                text-decoration: none;
+                color: lightblue;
+
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+    }
+
+    .right-nav {
+        width: 50%;
+        text-align: right;
+
+        #Search {
+            padding: 10px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+    }
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('images/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+    &.firstSection {
+        height: 100vh;
+    }
+
+}
+
+
+.box-main {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .firstHalf {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .text-big {
+            font-size: 42px;
+
+        }
+
+        .text-large {
+            font-size: 18px;
+        }
+
+        .buttons {
+            .btn {
+                padding: 10px;
+            }
+        }
+
+    }
+
+    .secondHalf {
+        width: 30%;
+        padding-left: 10px;
+
+        img {
+            width: 130%;
+            padding: 6px;
+            padding-left: 6px !important;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+    }
+}
